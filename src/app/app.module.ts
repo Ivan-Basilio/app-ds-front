@@ -6,7 +6,6 @@ import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { RouterModule, Routes } from "@angular/router";
 import { HttpClientModule } from "@angular/common/http";
-import { SectionComponent } from "./section/section.component";
 import { HerramientasComponent } from "./section/herramientas/herramientas.component";
 import { CaracteristicasComponent } from "./section/caracteristicas/caracteristicas.component";
 import { HomeComponent } from "./section/home/home.component";
@@ -17,7 +16,6 @@ const routes: Routes = [
   { path: "home", component: HomeComponent },
   { path: "caracteristicas", component: CaracteristicasComponent },
   { path: "herramientas", component: HerramientasComponent }
-
 ]
 @NgModule({
 
@@ -26,7 +24,6 @@ const routes: Routes = [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SectionComponent,
     HerramientasComponent,
     CaracteristicasComponent,
     HomeComponent

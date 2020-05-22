@@ -5,4 +5,5 @@ import { Component } from "@angular/core";
   templateUrl: "./herramientas.component.html"
 })
 export class HerramientasComponent {
+   titulo: string = "Herramientas necesarias para la creación de proyectos con Angular";
 }

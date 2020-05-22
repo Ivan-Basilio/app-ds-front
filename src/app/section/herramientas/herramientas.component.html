@@ -1,3 +1,102 @@
-<div class="container">
-    <a>Herramientas necesarias para la creacion de proyectos con Angular</a>
-</div>
+<section class="section">
+  <div class="container" >
+      <h1>{{ titulo }} </h1>
+  </div>
+  <div style="padding:50px;"  >
+      <div class="card" style="padding:50px; ">
+        <a name="node"><h1 class="card-title">Instalación de Node.js y npm</h1></a>
+        <div class="card-body">
+            <p> Lo primero que necesitamos es descargar Node.js para poder acceder al gestor de proyectos Node
+              Package Manager npm, el cual nos ayudara a la administración de dependencias, entre sotras cosas. <br><br>
+              Nos dirigimos a su pagina oficial y descargamos.<br><br>
+            </p>
+            <div class="">
+              <img src="assets/node_pagina.png" alt="" width=100%;>
+                <p> <br>Instalamos dando siguiente y siguiente...<br></p>
+              <img src="assets/node_inst.png" alt="" width=100%;>
+            </div>
+            <p>
+              Nos dirigimos a la consola de comandos y verificamos la instalación consultando la version con el comando:
+            <br><br>
+            <span class="badge badge-secondary">node -v</span>
+            <br><br>
+            y consultamos también la version instalada del npm.
+            <br>
+            <br>
+
+           <span class="badge badge-secondary">npm -v</span>
+
+           </p>
+           <div class="">
+             <img src="assets/version_node_npm.png" alt="" width="100%">
+           </div>
+           <p class="card-text">Con esto hemos comprobado correctamente la instalación. </p>
+        </div>
+      </div>
+
+<!--Instalacion de javascript-->
+      <div class="card" style="padding:50px;">
+        <a name="typescript"><h1 class="card-title">Instalación de TypeScript</h1></a>
+        <div class="card-body">
+          <p>TypeScript es un lenguaje de programación orientado a objetos, basado en javascript y fuertemente tipado.<br>
+            Lenguaje desarrollado por Microsoft, mediante el cual se desarrollan aplicaciones con Angular.
+            <br>
+            Se recomienda realizar una instalación global con la finalidad de que se pueda detectar la sintaxis en tiempo de desarrollo.
+            <br>
+            <br>
+            para realizar la instalación vamos a la pagina oficial para obtener el comando:
+            </p>
+            <div class="">
+              <img src="assets/ts.png" alt="" width="100%">
+              <br><br><br>
+              <p>Damos click en download</p>
+              <img src="assets/tscomand.png" alt="" width="100%">
+            </div>
+            <p>
+              Copiamos el comando para instalar y ejecutamos en cmd.
+              <span class="badge badge-secondary">npm install -g typescript</span>
+            </p>
+
+            <div class="">
+              <img src="assets/install_ts.png" alt="" width="100%">
+                <p>En este momento yo ya lo tengo instalado por eso cancele la operación, ademas de que la velocidad de mi internet no es muy bueno. <br>
+                <br>
+                Comprobamos la version instalada con el comando:
+                <span class="badge badge-secondary">tsc -v</span>
+                </p>
+              <img src="assets/version_ts.png" alt="" width="100%">
+            </div>
+           <p>Instalación correcta.</p>
+        </div>
+      </div>
+
+      <!--instalacion de angular cli-->
+      <div class="card" style="padding:50px;">
+        <a name="angular"><h1 class="card-title">Instalación de Angular</h1></a>
+        <div class="card-body">
+          <p>Angular CLI es la consola de comandos, el gestor de angular, para crear proyectos, claser, servicios, componentes, etc.
+          <br>  Es necesario tener instalado node.js y componente npm.
+            Nos dirigimos a la pigina oficial d e angular para obtener el comando.
+            </p>
+            <div class="">
+              <img src="assets/angular_install.png" alt="" width="100%">
+            </div>
+
+            <p>
+            Mediante la consola ingresamos el comando:
+            <span class="badge badge-secondary">  npm install -g @angular/cli</span>
+
+           </p>
+           <div class="">
+             <img src="assets/angular_ins_comand.png" alt="" width="100%">
+           </div>
+           <p>Compobamos la version de angular mediante el comando:
+             <span class="badge badge-secondary">ng version</span> </p>
+             <div class="">
+               <img src="assets/angular_version.png" alt="" width="100%">
+             </div>
+             <p><br><br><br> Una vez instalado todo podemos empezar a crear proyectos con angular, simplemente escojemos el edito de nuestra preferencia.</p>
+          </div>
+        </div>
+      </div>
+</section>

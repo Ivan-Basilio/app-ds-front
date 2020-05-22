@@ -7,5 +7,8 @@ import { Component } from "@angular/core";
     templateUrl: "./header.component.html"
 })
 export class HeaderComponent {
-  title: string = "Desarrollo Libre";
+  title: string = "Desarrollo Independiente";
+  menu: string[] = ["Angular","Caracteristicas","Herramientas"];
+  linkGit: string = "https://github.com/Ivan-Basilio/app-ds-front";
+  linkBlog: string = "https://desarrollo-independiente.blogspot.com/2020/05/desarrollo-de-aplicaciones-con-angular.html";
 }
