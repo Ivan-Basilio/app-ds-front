@@ -52,6 +52,15 @@
               <p>Damos click en download</p>
               <img src="assets/tscomand.png" alt="" width="100%">
             </div>
+          <p>Antes de ejecutar el siguiente comando validamos si contamos con proxy configurado, esto en caso de que en nuestra empresa se encuentre alguno habilitado
+            npm config list
+            
+            si no aparece ninguno configurado, lo realizamos con los sig comandos:
+            npm config set proxy http://proxy.emp:puerto
+            npm config set https-proxy http://proxy.emp:puerto
+            npm config set http-proxy http://proxy.emp:puerto
+            
+          </p>
             <p>
               Copiamos el comando para instalar y ejecutamos en cmd.
               <span class="badge badge-secondary">npm install -g typescript</span>
